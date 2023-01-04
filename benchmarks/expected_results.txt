@@ -1,0 +1,338 @@
+***** benchmark Z-algorithm.swift *****
+ Avg running time (baseline) = .35 sec
+ Size (baseline)= 3163 bytes
+ Avg running time (Outlining rounds 1)= .35 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 3118 bytes. Size saving = 1.42%
+ Avg running time (Outlining rounds 2)= .35 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 3118 bytes. Size saving = 1.42%
+ Avg running time (Outlining rounds 3)= .35 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 3118 bytes. Size saving = 1.42%
+ Avg running time (Outlining rounds 4)= .35 sec. Slowdown = 0%
+ Size (Outlining rounds 4) = 3118 bytes. Size saving = 1.42%
+ Avg running time (Outlining rounds 5)= .36 sec. Slowdown = 2.77%
+ Size (Outlining rounds 5) = 3118 bytes. Size saving = 1.42%
+***** benchmark TopologicalSort.swift *****
+ Avg running time (baseline) = 1.23 sec
+ Size (baseline)= 17995 bytes
+ Avg running time (Outlining rounds 1)= 1.28 sec. Slowdown = 3.90%
+ Size (Outlining rounds 1) = 17865 bytes. Size saving = .72%
+ Avg running time (Outlining rounds 2)= 1.29 sec. Slowdown = 4.65%
+ Size (Outlining rounds 2) = 17853 bytes. Size saving = .78%
+ Avg running time (Outlining rounds 3)= 1.28 sec. Slowdown = 3.90%
+ Size (Outlining rounds 3) = 17853 bytes. Size saving = .78%
+ Avg running time (Outlining rounds 4)= 1.27 sec. Slowdown = 3.14%
+ Size (Outlining rounds 4) = 17853 bytes. Size saving = .78%
+ Avg running time (Outlining rounds 5)= 1.28 sec. Slowdown = 3.90%
+ Size (Outlining rounds 5) = 17853 bytes. Size saving = .78%
+***** benchmark simann.swift *****
+ Avg running time (baseline) = .56 sec
+ Size (baseline)= 11658 bytes
+ Avg running time (Outlining rounds 1)= .56 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 11863 bytes. Size saving = -1.75%
+ Avg running time (Outlining rounds 2)= .56 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 11863 bytes. Size saving = -1.75%
+ Avg running time (Outlining rounds 3)= .56 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 11863 bytes. Size saving = -1.75%
+ Avg running time (Outlining rounds 4)= .57 sec. Slowdown = 1.75%
+ Size (Outlining rounds 4) = 11863 bytes. Size saving = -1.75%
+ Avg running time (Outlining rounds 5)= .57 sec. Slowdown = 1.75%
+ Size (Outlining rounds 5) = 11863 bytes. Size saving = -1.75%
+***** benchmark RLE.swift *****
+ Avg running time (baseline) = .40 sec
+ Size (baseline)= 5385 bytes
+ Avg running time (Outlining rounds 1)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 5304 bytes. Size saving = 1.50%
+ Avg running time (Outlining rounds 2)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 5304 bytes. Size saving = 1.50%
+ Avg running time (Outlining rounds 3)= .39 sec. Slowdown = -2.56%
+ Size (Outlining rounds 3) = 5304 bytes. Size saving = 1.50%
+ Avg running time (Outlining rounds 4)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 4) = 5304 bytes. Size saving = 1.50%
+ Avg running time (Outlining rounds 5)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 5304 bytes. Size saving = 1.50%
+***** benchmark OctTree.swift *****
+ Avg running time (baseline) = .56 sec
+ Size (baseline)= 18250 bytes
+ Avg running time (Outlining rounds 1)= .57 sec. Slowdown = 1.75%
+ Size (Outlining rounds 1) = 17591 bytes. Size saving = 3.61%
+ Avg running time (Outlining rounds 2)= .58 sec. Slowdown = 3.44%
+ Size (Outlining rounds 2) = 17598 bytes. Size saving = 3.57%
+ Avg running time (Outlining rounds 3)= .57 sec. Slowdown = 1.75%
+ Size (Outlining rounds 3) = 17598 bytes. Size saving = 3.57%
+ Avg running time (Outlining rounds 4)= .57 sec. Slowdown = 1.75%
+ Size (Outlining rounds 4) = 17598 bytes. Size saving = 3.57%
+ Avg running time (Outlining rounds 5)= .57 sec. Slowdown = 1.75%
+ Size (Outlining rounds 5) = 17598 bytes. Size saving = 3.57%
+***** benchmark RedBlackTree.swift *****
+ Avg running time (baseline) = 1.33 sec
+ Size (baseline)= 23386 bytes
+ Avg running time (Outlining rounds 1)= 1.43 sec. Slowdown = 6.99%
+ Size (Outlining rounds 1) = 23011 bytes. Size saving = 1.60%
+ Avg running time (Outlining rounds 2)= 1.43 sec. Slowdown = 6.99%
+ Size (Outlining rounds 2) = 23002 bytes. Size saving = 1.64%
+ Avg running time (Outlining rounds 3)= 1.44 sec. Slowdown = 7.63%
+ Size (Outlining rounds 3) = 23002 bytes. Size saving = 1.64%
+ Avg running time (Outlining rounds 4)= 1.44 sec. Slowdown = 7.63%
+ Size (Outlining rounds 4) = 23002 bytes. Size saving = 1.64%
+ Avg running time (Outlining rounds 5)= 1.44 sec. Slowdown = 7.63%
+ Size (Outlining rounds 5) = 23002 bytes. Size saving = 1.64%
+***** benchmark SplayTree.swift *****
+ Avg running time (baseline) = 1.63 sec
+ Size (baseline)= 13867 bytes
+ Avg running time (Outlining rounds 1)= 1.74 sec. Slowdown = 6.32%
+ Size (Outlining rounds 1) = 13552 bytes. Size saving = 2.27%
+ Avg running time (Outlining rounds 2)= 1.73 sec. Slowdown = 5.78%
+ Size (Outlining rounds 2) = 13552 bytes. Size saving = 2.27%
+ Avg running time (Outlining rounds 3)= 1.72 sec. Slowdown = 5.23%
+ Size (Outlining rounds 3) = 13552 bytes. Size saving = 2.27%
+ Avg running time (Outlining rounds 4)= 1.72 sec. Slowdown = 5.23%
+ Size (Outlining rounds 4) = 13552 bytes. Size saving = 2.27%
+ Avg running time (Outlining rounds 5)= 1.70 sec. Slowdown = 4.11%
+ Size (Outlining rounds 5) = 13552 bytes. Size saving = 2.27%
+***** benchmark LCS.swift *****
+ Avg running time (baseline) = 1.17 sec
+ Size (baseline)= 4420 bytes
+ Avg running time (Outlining rounds 1)= 1.19 sec. Slowdown = 1.68%
+ Size (Outlining rounds 1) = 4405 bytes. Size saving = .33%
+ Avg running time (Outlining rounds 2)= 1.16 sec. Slowdown = -.86%
+ Size (Outlining rounds 2) = 4405 bytes. Size saving = .33%
+ Avg running time (Outlining rounds 3)= 1.17 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 4405 bytes. Size saving = .33%
+ Avg running time (Outlining rounds 4)= 1.19 sec. Slowdown = 1.68%
+ Size (Outlining rounds 4) = 4405 bytes. Size saving = .33%
+ Avg running time (Outlining rounds 5)= 1.17 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 4405 bytes. Size saving = .33%
+***** benchmark LRUCache.swift *****
+ Avg running time (baseline) = .72 sec
+ Size (baseline)= 9690 bytes
+ Avg running time (Outlining rounds 1)= .74 sec. Slowdown = 2.70%
+ Size (Outlining rounds 1) = 9744 bytes. Size saving = -.55%
+ Avg running time (Outlining rounds 2)= .74 sec. Slowdown = 2.70%
+ Size (Outlining rounds 2) = 9729 bytes. Size saving = -.40%
+ Avg running time (Outlining rounds 3)= .74 sec. Slowdown = 2.70%
+ Size (Outlining rounds 3) = 9729 bytes. Size saving = -.40%
+ Avg running time (Outlining rounds 4)= .73 sec. Slowdown = 1.36%
+ Size (Outlining rounds 4) = 9729 bytes. Size saving = -.40%
+ Avg running time (Outlining rounds 5)= .73 sec. Slowdown = 1.36%
+ Size (Outlining rounds 5) = 9729 bytes. Size saving = -.40%
+***** benchmark Knuth-Morris-Pratt.swift *****
+ Avg running time (baseline) = 1.19 sec
+ Size (baseline)= 3771 bytes
+ Avg running time (Outlining rounds 1)= 1.19 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 3735 bytes. Size saving = .95%
+ Avg running time (Outlining rounds 2)= 1.19 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 3735 bytes. Size saving = .95%
+ Avg running time (Outlining rounds 3)= 1.20 sec. Slowdown = .83%
+ Size (Outlining rounds 3) = 3735 bytes. Size saving = .95%
+ Avg running time (Outlining rounds 4)= 1.20 sec. Slowdown = .83%
+ Size (Outlining rounds 4) = 3735 bytes. Size saving = .95%
+ Avg running time (Outlining rounds 5)= 1.19 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 3735 bytes. Size saving = .95%
+***** benchmark Huffman.swift *****
+ Avg running time (baseline) = 2.58 sec
+ Size (baseline)= 17194 bytes
+ Avg running time (Outlining rounds 1)= 2.76 sec. Slowdown = 6.52%
+ Size (Outlining rounds 1) = 17281 bytes. Size saving = -.50%
+ Avg running time (Outlining rounds 2)= 2.70 sec. Slowdown = 4.44%
+ Size (Outlining rounds 2) = 17294 bytes. Size saving = -.58%
+ Avg running time (Outlining rounds 3)= 2.73 sec. Slowdown = 5.49%
+ Size (Outlining rounds 3) = 17294 bytes. Size saving = -.58%
+ Avg running time (Outlining rounds 4)= 2.69 sec. Slowdown = 4.08%
+ Size (Outlining rounds 4) = 17294 bytes. Size saving = -.58%
+ Avg running time (Outlining rounds 5)= 2.70 sec. Slowdown = 4.44%
+ Size (Outlining rounds 5) = 17294 bytes. Size saving = -.58%
+***** benchmark HashTable.swift *****
+ Avg running time (baseline) = .68 sec
+ Size (baseline)= 12923 bytes
+ Avg running time (Outlining rounds 1)= .68 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 12913 bytes. Size saving = .07%
+ Avg running time (Outlining rounds 2)= .69 sec. Slowdown = 1.44%
+ Size (Outlining rounds 2) = 12913 bytes. Size saving = .07%
+ Avg running time (Outlining rounds 3)= .67 sec. Slowdown = -1.49%
+ Size (Outlining rounds 3) = 12913 bytes. Size saving = .07%
+ Avg running time (Outlining rounds 4)= .67 sec. Slowdown = -1.49%
+ Size (Outlining rounds 4) = 12913 bytes. Size saving = .07%
+ Avg running time (Outlining rounds 5)= .70 sec. Slowdown = 2.85%
+ Size (Outlining rounds 5) = 12913 bytes. Size saving = .07%
+***** benchmark GCD.swift *****
+ Avg running time (baseline) = .68 sec
+ Size (baseline)= 1850 bytes
+ Avg running time (Outlining rounds 1)= .70 sec. Slowdown = 2.85%
+ Size (Outlining rounds 1) = 1818 bytes. Size saving = 1.72%
+ Avg running time (Outlining rounds 2)= .70 sec. Slowdown = 2.85%
+ Size (Outlining rounds 2) = 1818 bytes. Size saving = 1.72%
+ Avg running time (Outlining rounds 3)= .70 sec. Slowdown = 2.85%
+ Size (Outlining rounds 3) = 1818 bytes. Size saving = 1.72%
+ Avg running time (Outlining rounds 4)= .71 sec. Slowdown = 4.22%
+ Size (Outlining rounds 4) = 1818 bytes. Size saving = 1.72%
+ Avg running time (Outlining rounds 5)= .70 sec. Slowdown = 2.85%
+ Size (Outlining rounds 5) = 1818 bytes. Size saving = 1.72%
+***** benchmark EncodeAndDecodeTree.swift *****
+ Avg running time (baseline) = .69 sec
+ Size (baseline)= 11818 bytes
+ Avg running time (Outlining rounds 1)= .71 sec. Slowdown = 2.81%
+ Size (Outlining rounds 1) = 11593 bytes. Size saving = 1.90%
+ Avg running time (Outlining rounds 2)= .72 sec. Slowdown = 4.16%
+ Size (Outlining rounds 2) = 11593 bytes. Size saving = 1.90%
+ Avg running time (Outlining rounds 3)= .72 sec. Slowdown = 4.16%
+ Size (Outlining rounds 3) = 11593 bytes. Size saving = 1.90%
+ Avg running time (Outlining rounds 4)= .72 sec. Slowdown = 4.16%
+ Size (Outlining rounds 4) = 11593 bytes. Size saving = 1.90%
+ Avg running time (Outlining rounds 5)= .71 sec. Slowdown = 2.81%
+ Size (Outlining rounds 5) = 11593 bytes. Size saving = 1.90%
+***** benchmark Dijkstra.swift *****
+ Avg running time (baseline) = 1.47 sec
+ Size (baseline)= 22250 bytes
+ Avg running time (Outlining rounds 1)= 1.56 sec. Slowdown = 5.76%
+ Size (Outlining rounds 1) = 22129 bytes. Size saving = .54%
+ Avg running time (Outlining rounds 2)= 1.63 sec. Slowdown = 9.81%
+ Size (Outlining rounds 2) = 22113 bytes. Size saving = .61%
+ Avg running time (Outlining rounds 3)= 1.65 sec. Slowdown = 10.90%
+ Size (Outlining rounds 3) = 22113 bytes. Size saving = .61%
+ Avg running time (Outlining rounds 4)= 1.58 sec. Slowdown = 6.96%
+ Size (Outlining rounds 4) = 22113 bytes. Size saving = .61%
+ Avg running time (Outlining rounds 5)= 1.65 sec. Slowdown = 10.90%
+ Size (Outlining rounds 5) = 22113 bytes. Size saving = .61%
+***** benchmark DFS.swift *****
+ Avg running time (baseline) = .22 sec
+ Size (baseline)= 17290 bytes
+ Avg running time (Outlining rounds 1)= .21 sec. Slowdown = -4.76%
+ Size (Outlining rounds 1) = 17111 bytes. Size saving = 1.03%
+ Avg running time (Outlining rounds 2)= .21 sec. Slowdown = -4.76%
+ Size (Outlining rounds 2) = 17111 bytes. Size saving = 1.03%
+ Avg running time (Outlining rounds 3)= .21 sec. Slowdown = -4.76%
+ Size (Outlining rounds 3) = 17111 bytes. Size saving = 1.03%
+ Avg running time (Outlining rounds 4)= .21 sec. Slowdown = -4.76%
+ Size (Outlining rounds 4) = 17111 bytes. Size saving = 1.03%
+ Avg running time (Outlining rounds 5)= .21 sec. Slowdown = -4.76%
+ Size (Outlining rounds 5) = 17111 bytes. Size saving = 1.03%
+***** benchmark CountOccurences.swift *****
+ Avg running time (baseline) = .40 sec
+ Size (baseline)= 6291 bytes
+ Avg running time (Outlining rounds 1)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 6429 bytes. Size saving = -2.19%
+ Avg running time (Outlining rounds 2)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 6429 bytes. Size saving = -2.19%
+ Avg running time (Outlining rounds 3)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 6429 bytes. Size saving = -2.19%
+ Avg running time (Outlining rounds 4)= .40 sec. Slowdown = 0%
+ Size (Outlining rounds 4) = 6429 bytes. Size saving = -2.19%
+ Avg running time (Outlining rounds 5)= .39 sec. Slowdown = -2.56%
+ Size (Outlining rounds 5) = 6429 bytes. Size saving = -2.19%
+***** benchmark Combinatorics.swift *****
+ Avg running time (baseline) = 1.77 sec
+ Size (baseline)= 7142 bytes
+ Avg running time (Outlining rounds 1)= 1.74 sec. Slowdown = -1.72%
+ Size (Outlining rounds 1) = 7266 bytes. Size saving = -1.73%
+ Avg running time (Outlining rounds 2)= 1.75 sec. Slowdown = -1.14%
+ Size (Outlining rounds 2) = 7266 bytes. Size saving = -1.73%
+ Avg running time (Outlining rounds 3)= 1.75 sec. Slowdown = -1.14%
+ Size (Outlining rounds 3) = 7266 bytes. Size saving = -1.73%
+ Avg running time (Outlining rounds 4)= 1.74 sec. Slowdown = -1.72%
+ Size (Outlining rounds 4) = 7266 bytes. Size saving = -1.73%
+ Avg running time (Outlining rounds 5)= 1.74 sec. Slowdown = -1.72%
+ Size (Outlining rounds 5) = 7266 bytes. Size saving = -1.73%
+***** benchmark ClosestPair.swift *****
+ Avg running time (baseline) = .90 sec
+ Size (baseline)= 5969 bytes
+ Avg running time (Outlining rounds 1)= .90 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 6018 bytes. Size saving = -.82%
+ Avg running time (Outlining rounds 2)= .89 sec. Slowdown = -1.12%
+ Size (Outlining rounds 2) = 6018 bytes. Size saving = -.82%
+ Avg running time (Outlining rounds 3)= .89 sec. Slowdown = -1.12%
+ Size (Outlining rounds 3) = 6018 bytes. Size saving = -.82%
+ Avg running time (Outlining rounds 4)= .90 sec. Slowdown = 0%
+ Size (Outlining rounds 4) = 6018 bytes. Size saving = -.82%
+ Avg running time (Outlining rounds 5)= .90 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 6018 bytes. Size saving = -.82%
+***** benchmark BFS.swift *****
+ Avg running time (baseline) = .50 sec
+ Size (baseline)= 19786 bytes
+ Avg running time (Outlining rounds 1)= .51 sec. Slowdown = 1.96%
+ Size (Outlining rounds 1) = 19516 bytes. Size saving = 1.36%
+ Avg running time (Outlining rounds 2)= .52 sec. Slowdown = 3.84%
+ Size (Outlining rounds 2) = 19516 bytes. Size saving = 1.36%
+ Avg running time (Outlining rounds 3)= .53 sec. Slowdown = 5.66%
+ Size (Outlining rounds 3) = 19516 bytes. Size saving = 1.36%
+ Avg running time (Outlining rounds 4)= .52 sec. Slowdown = 3.84%
+ Size (Outlining rounds 4) = 19516 bytes. Size saving = 1.36%
+ Avg running time (Outlining rounds 5)= .52 sec. Slowdown = 3.84%
+ Size (Outlining rounds 5) = 19516 bytes. Size saving = 1.36%
+***** benchmark Boyer-Moore-Horspool.swift *****
+ Avg running time (baseline) = .79 sec
+ Size (baseline)= 4980 bytes
+ Avg running time (Outlining rounds 1)= .80 sec. Slowdown = 1.25%
+ Size (Outlining rounds 1) = 4801 bytes. Size saving = 3.59%
+ Avg running time (Outlining rounds 2)= .82 sec. Slowdown = 3.65%
+ Size (Outlining rounds 2) = 4801 bytes. Size saving = 3.59%
+ Avg running time (Outlining rounds 3)= .81 sec. Slowdown = 2.46%
+ Size (Outlining rounds 3) = 4801 bytes. Size saving = 3.59%
+ Avg running time (Outlining rounds 4)= .80 sec. Slowdown = 1.25%
+ Size (Outlining rounds 4) = 4801 bytes. Size saving = 3.59%
+ Avg running time (Outlining rounds 5)= .80 sec. Slowdown = 1.25%
+ Size (Outlining rounds 5) = 4801 bytes. Size saving = 3.59%
+***** benchmark CountingSort.swift *****
+ Avg running time (baseline) = .65 sec
+ Size (baseline)= 3094 bytes
+ Avg running time (Outlining rounds 1)= .66 sec. Slowdown = 1.51%
+ Size (Outlining rounds 1) = 3097 bytes. Size saving = -.09%
+ Avg running time (Outlining rounds 2)= .65 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 3097 bytes. Size saving = -.09%
+ Avg running time (Outlining rounds 3)= .65 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 3097 bytes. Size saving = -.09%
+ Avg running time (Outlining rounds 4)= .66 sec. Slowdown = 1.51%
+ Size (Outlining rounds 4) = 3097 bytes. Size saving = -.09%
+ Avg running time (Outlining rounds 5)= .65 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 3097 bytes. Size saving = -.09%
+***** benchmark StrassenMM.swift *****
+ Avg running time (baseline) = .11 sec
+ Size (baseline)= 25563 bytes
+ Avg running time (Outlining rounds 1)= .12 sec. Slowdown = 8.33%
+ Size (Outlining rounds 1) = 24894 bytes. Size saving = 2.61%
+ Avg running time (Outlining rounds 2)= .12 sec. Slowdown = 8.33%
+ Size (Outlining rounds 2) = 24915 bytes. Size saving = 2.53%
+ Avg running time (Outlining rounds 3)= .12 sec. Slowdown = 8.33%
+ Size (Outlining rounds 3) = 24915 bytes. Size saving = 2.53%
+ Avg running time (Outlining rounds 4)= .12 sec. Slowdown = 8.33%
+ Size (Outlining rounds 4) = 24915 bytes. Size saving = 2.53%
+ Avg running time (Outlining rounds 5)= .12 sec. Slowdown = 8.33%
+ Size (Outlining rounds 5) = 24915 bytes. Size saving = 2.53%
+***** benchmark QuickSort.swift *****
+ Avg running time (baseline) = .17 sec
+ Size (baseline)= 9819 bytes
+ Avg running time (Outlining rounds 1)= .17 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 9930 bytes. Size saving = -1.13%
+ Avg running time (Outlining rounds 2)= .17 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 9930 bytes. Size saving = -1.13%
+ Avg running time (Outlining rounds 3)= .17 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 9930 bytes. Size saving = -1.13%
+ Avg running time (Outlining rounds 4)= .17 sec. Slowdown = 0%
+ Size (Outlining rounds 4) = 9930 bytes. Size saving = -1.13%
+ Avg running time (Outlining rounds 5)= .17 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 9930 bytes. Size saving = -1.13%
+***** benchmark BucketSort.swift *****
+ Avg running time (baseline) = .28 sec
+ Size (baseline)= 10973 bytes
+ Avg running time (Outlining rounds 1)= .28 sec. Slowdown = 0%
+ Size (Outlining rounds 1) = 10870 bytes. Size saving = .93%
+ Avg running time (Outlining rounds 2)= .28 sec. Slowdown = 0%
+ Size (Outlining rounds 2) = 10870 bytes. Size saving = .93%
+ Avg running time (Outlining rounds 3)= .28 sec. Slowdown = 0%
+ Size (Outlining rounds 3) = 10870 bytes. Size saving = .93%
+ Avg running time (Outlining rounds 4)= .28 sec. Slowdown = 0%
+ Size (Outlining rounds 4) = 10870 bytes. Size saving = .93%
+ Avg running time (Outlining rounds 5)= .28 sec. Slowdown = 0%
+ Size (Outlining rounds 5) = 10870 bytes. Size saving = .93%
+***** benchmark JSON.swift *****
+ Avg running time (baseline) = 1.43 sec
+ Size (baseline)= 54436 bytes
+ Avg running time (Outlining rounds 1)= 1.42 sec. Slowdown = -.70%
+ Size (Outlining rounds 1) = 52783 bytes. Size saving = 3.03%
+ Avg running time (Outlining rounds 2)= 1.44 sec. Slowdown = .69%
+ Size (Outlining rounds 2) = 52665 bytes. Size saving = 3.25%
+ Avg running time (Outlining rounds 3)= 1.44 sec. Slowdown = .69%
+ Size (Outlining rounds 3) = 52537 bytes. Size saving = 3.48%
+ Avg running time (Outlining rounds 4)= 1.42 sec. Slowdown = -.70%
+ Size (Outlining rounds 4) = 52447 bytes. Size saving = 3.65%
+ Avg running time (Outlining rounds 5)= 1.42 sec. Slowdown = -.70%
+ Size (Outlining rounds 5) = 52347 bytes. Size saving = 3.83%
