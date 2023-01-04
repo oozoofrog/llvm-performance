@@ -36,6 +36,6 @@ cd ${ROOT}/benchmarks
 . run.sh
 
 ## Apps
-echo "Running Apps..."
-cd ${ROOT}/apps
-. run.sh
+#echo "Running Apps..."
+#cd ${ROOT}/apps
+#. run.sh
