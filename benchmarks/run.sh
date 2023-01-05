@@ -61,7 +61,7 @@ function opt() {
     
     for i in ${repeats[@]}
     do
-        $LLC_NEW -stats -filetype=obj -code-model=small  -enable-machine-outliner=always -outline-repeat-count=${i} -enable-linkonceodr-outlining -o  ${base}.opt_${i}.o  ${base}.opt.bc &> ${base}.opt_${i}.stats
+        $LLC_NEW -stats -filetype=obj -code-model=small  -enable-machine-outliner=always -enable-linkonceodr-outlining -o  ${base}.opt_${i}.o  ${base}.opt.bc &> ${base}.opt_${i}.stats
         $SWIFT ${base}.opt_${i}.o  -o ${base}.opt_${i} &> /dev/null
         opt_size=`size -m ${base}.opt_${i} | grep "Section __text: " | awk '{print $3}'`
         size_save=`echo "scale=2; ($baseline_size - $opt_size) * 100 / $baseline_size" | bc`
